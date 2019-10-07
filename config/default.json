@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://erivasf:12345@cluster0-ffb5h.mongodb.net/admin?retryWrites=true&w=majority",
+  "jwtSecret": "ESUNSECRETODEAMOR"
+}
