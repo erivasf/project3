@@ -22,5 +22,6 @@ export const LOGIN_FAIL = 'LOGIN_FAIL';
 export const LOGOUT = 'LOGOUT';
 export const CLEAR_ERRORS = 'CLEAR_ERRORS';
 export const GET_PROFILE = 'GET_PROFILE';
-export const UPDTAE_PROFILE = 'UPDTAE_PROFILE';
+export const UPDATE_PROFILE = 'UPDTAE_PROFILE';
 export const PROFILE_ERROR = 'PROFILE_ERROR';
+export const ADD_PROFILE = 'ADD_PROFILE';

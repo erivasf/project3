@@ -1,14 +1,20 @@
-import {GET_PROFILE,UPDTAE_PROFILE} from '../types';
+import {GET_PROFILE,UPDATE_PROFILE, PROFILE_ERROR, ADD_PROFILE} from '../types';
 
 export default (state, action) => {
   switch (action.type) {
+     case ADD_PROFILE:
+      return {
+        ...state,
+        profile: [action.payload, ...state.profile],
+        loading: false
+      };
     case GET_PROFILE:
       return {
         ...state,
         profile: action.payload,
         loading: false
       };
-    case UPDTAE_PROFILE:
+    case UPDATE_PROFILE:
       return {
         ...state,
         profile: state.profile.map(prof =>
@@ -24,5 +30,5 @@ export default (state, action) => {
     default:
     return state;
   }
-  }
-};
+}
+

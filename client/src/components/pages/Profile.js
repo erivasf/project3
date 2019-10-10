@@ -16,6 +16,7 @@ const Profile = () => {
     <div className="container">
     <div className = "upper">
       <h1 className="title text-center">Your profile</h1>
+      
     </div>
     <div className='grid-2'>
       <div>
