@@ -1,20 +1,20 @@
-import React from 'react'
-import Contacts from '../contacts/Contacts'
-import ContactForm from '../contacts/ContactForm'
-import ContactFilter from '../contacts/ContactFilter'
+import React, { useContext, useEffect } from 'react';
+import AllTasks from '../tasks/AllTasks'
+import AuthContext from '../../context/auth/authContext';
 
 const Home = () => {
-  return (
-    <div className = "grid-2">
-      <div>
-        <ContactForm></ContactForm>
-      </div>
-      <div>
-        <ContactFilter></ContactFilter>
-        <Contacts></Contacts>
-      </div>
-    </div>
-  )
-}
+  const authContext = useContext(AuthContext);
 
-export default Home
+  useEffect(() => {
+    authContext.loadUser();
+    // eslint-disable-next-line
+  }, []);
+
+  return (
+    <div className='container'>
+      <AllTasks/>
+    </div>
+  );
+};
+
+export default Home;

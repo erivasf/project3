@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
   return (
     <div>
-      <h1>About this app...</h1>
-      <p className="my-1">
-        This is an app for keeping contacts.
+      <h1>About This App</h1>
+      <p className='my-1'>
+        Let others handle your tasks.
+      </p>
+      <p className='bg-dark p'>
+        <strong>Version: </strong> 1.0.0
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
