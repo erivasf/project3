@@ -1,6 +1,6 @@
 # Task.
 
-Park es una webapp para poder cumplir todo lo que tienes que hacer. A través de Task puedes subir cualquier tipo de pendiente, junto con la cantidad que ofreces por cumplirlo y tus datos de contacto.
+Task es una webapp para poder cumplir todo lo que tienes que hacer. A través de Task puedes subir cualquier tipo de pendiente, junto con la cantidad que ofreces por cumplirlo y tus datos de contacto.
 
 ### Prueba el proyecto
 Abre este [link](https://thetaskproject.herokuapp.com/login) para probar este proyecto.
